@@ -8,7 +8,7 @@ image:
   repository: tekkamanendless/saml-simulator
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  #tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -84,3 +84,5 @@ affinity: {}
 env:
   # Set this to "true" to enable debug output in the container.
   DEBUG: "false"
+  # Set this to "true" to expose Prometheus metrics at "/metrics".
+  EXPOSE_METRICS: "false"
