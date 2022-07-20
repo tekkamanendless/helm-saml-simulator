@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   saml-simulator:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-07-20T20:50:57.877322059Z"
+    description: A Helm chart for saml-simulator
+    digest: 67f14d477d271a5a493e989648a04bed7c5d822b5d1204d548a3cda07f13d40c
+    name: saml-simulator
+    type: application
+    urls:
+    - https://github.com/tekkamanendless/helm-saml-simulator/releases/download/saml-simulator-0.1.1/saml-simulator-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2022-06-05T03:04:29.38346406Z"
     description: A Helm chart for saml-simulator
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/tekkamanendless/helm-saml-simulator/releases/download/saml-simulator-0.1.0/saml-simulator-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-05T03:04:29.38347586Z"
+generated: "2022-07-20T20:50:57.877329459Z"
