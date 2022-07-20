@@ -50,6 +50,8 @@ spec:
           env:
             - name: DEBUG
               value: "{{ .Values.env.DEBUG }}"
+            - name: EXPOSE_METRICS
+              value: "{{ .Values.env.EXPOSE_METRICS }}"
             - name: WEB_PORT
               value: "80"
             - name: WEB_ADDRESS
